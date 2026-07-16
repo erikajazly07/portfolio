@@ -1,0 +1,94 @@
+{
+  "skills": [
+    { "name": "Python", "category": "technical" },
+    { "name": "HTML5 & CSS3", "category": "technical" },
+    { "name": "JavaScript", "category": "technical" },
+    { "name": "Database Design", "category": "technical" },
+    { "name": "Problem Solving", "category": "soft" },
+    { "name": "Critical Thinking", "category": "soft" },
+    { "name": "Team Collaboration", "category": "soft" },
+    { "name": "Communication", "category": "soft" }
+  ],
+  "education": [
+    {
+      "year": "2025 - Present",
+      "level": "Tertiary Education",
+      "institution": "Lorma Colleges",
+      "details": "BS Computer Science"
+    },
+    {
+      "year": "2024 - 2025",
+      "level": "Tertiary Education",
+      "institution": "AMA Computer College San Fernando, La Union",
+      "details": "BS Computer Science coursework"
+    },
+    {
+      "year": "2014 - 2024",
+      "level": "Secondary Education",
+      "institution": "Saint Augustine’s School",
+      "details": "High School Diploma"
+    },
+    {
+      "year": "2012 - 2014",
+      "level": "Primary Education",
+      "institution": "CSAT Christ’s Servants Academy of Tagudin Inc",
+      "details": "Grade School"
+    },
+    {
+      "year": "2010 - 2012",
+      "level": "Primary Education",
+      "institution": "UCCP Christ-Gifted Academy Inc., Tagudin",
+      "details": "Primary School"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Himaya",
+      "description": "A high-fidelity Figma UI/UX design project for a premium makeup shopping website, featuring clean layouts and an elegant cosmetic aesthetic.",
+      "image": "assets/himaya.png",
+      "link": "https://www.figma.com/proto/HZ6XFuTHZIxcdhHflSE7B5/Himaya-Cosmetics?node-id=83-19&t=HARtoY38B58EOBGy-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=202%3A4020&show-proto-sidebar=1"
+    },
+    {
+      "title": "Coffee Shop Website",
+      "description": "A responsive landing page layout designed for a modern cafe, showcasing menus, contact options, and a warm visual design.",
+      "image": "assets/coffee-shop.png",
+      "link": "https://github.com/erikajazly07/Coffee"
+    },
+    {
+      "title": "Simple Calculator",
+      "description": "A clean, functional calculator web application capable of performing standard mathematical operations smoothly.",
+      "image": "assets/calculator.png",
+      "link": "https://github.com/erikajazly07/COMPRO-activities"
+    },
+    {
+      "title": "Utang List",
+      "description": "A simple tracking application designed to organize, calculate, and log personal lendings, debts, and balances.",
+      "image": "assets/utang-list.png",
+      "link": "https://github.com/erikajazly07/js-utang_list-app"
+    },
+    {
+      "title": "Grade Calculator",
+      "description": "A useful calculator tool built to help students input scores, weightings, and quickly evaluate their academic averages.",
+      "image": "assets/gcalculator.png",
+      "link": "https://github.com/erikajazly07/COMPRO-activities"
+    },
+    {
+      "title": "Wedding Invitation",
+      "description": "An elegant, digital wedding invitation website complete with RSVP features, event timelines, and venue maps.",
+      "image": "assets/wedding.png",
+      "link": "https://github.com/erikajazly07/COMPRO-activities"
+    },
+    {
+      "title": "Hangman Game",
+      "description": "A terminal-based word-guessing game designed using direct text outputs to handle guesses and display win/loss states.",
+      "image": "assets/hangman.png",
+      "link": "https://github.com/erikajazly07/OOP-2026"
+    },
+    {
+      "title": "Rock Paper Scissors Game",
+      "description": "A terminal-based classic game featuring randomized computer choices and live scorekeeping for the user.",
+      "image": "assets/rps.png",
+      "link": "https://github.com/erikajazly07/OOP-2026"
+    }
+  ]
+}

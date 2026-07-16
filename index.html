@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erika Jazly Godoy | CS Portfolio</title>
+    <!-- Elegant Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span class="blue-square"></span>
+            <strong>Erika Jazly Godoy</strong>
+            <span class="title-sep">/</span>
+            <span class="job-title">ASPIRING DEVELOPER</span>
+        </div>
+        
+        <!-- Mobile Hamburger Button -->
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#about-section" class="nav-link active">ABOUT ME</a></li>
+                <li><a href="#resume-section" class="nav-link">RESUME & SKILLS</a></li>
+                <li><a href="#projects-section" class="nav-link">PROJECTS</a></li>
+                <li><a href="#contact-section" class="nav-link">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ABOUT ME SECTION -->
+        <section id="about-section" class="page-section">
+            <div class="hero-container">
+                <div class="visual-side">
+                    <div class="beige-backdrop"></div>
+                    <div class="profile-card">
+                        <div class="avatar-container">
+                            <img src="assets/avatar.png" alt="Erika Jazly Godoy" class="avatar">
+                        </div>
+                        <h2>Erika Jazly</h2>
+                        <div class="card-line"></div>
+                        <p class="card-subtitle">BS COMPUTER SCIENCE</p>
+                        <div class="card-socials">
+                            <a href="https://www.facebook.com/erikajazlyg/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://github.com/erikajazly07" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="mailto:erikajazly.godoy@lorma.edu"><i class="far fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-side">
+                    <h1>Hello!</h1>
+                    <h3>Here's who I am & what I do</h3>
+                    <div class="cta-buttons">
+                        <a href="#resume-section" class="btn btn-blue">RESUME</a>
+                        <a href="#projects-section" class="btn btn-outline">PROJECTS</a>
+                    </div>
+                    <div class="bio-paragraphs">
+                        <p>I'm a BS Computer Science student driven by a love for building software, exploring web design, and figuring out how things work behind the scenes. Step-by-step, I am turning my interest in computers into functional, interactive applications.</p>
+                        <p>Right now, I am focusing on sharpening my foundational programming skills, learning clean database design, and experimenting with frontend development. My goal is to craft software that is both elegant and highly practical.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESUME & SKILLS SECTION -->
+        <section id="resume-section" class="page-section">
+            <div class="content-container">
+                <h2 class="section-title">Resume & Skills</h2>
+                <div class="resume-grid">
+                    <!-- Dynamic Education Section -->
+                    <div class="resume-block">
+                        <h3>Education</h3>
+                        <div id="education-timeline">
+                            <!-- Injected dynamically by js/app.js -->
+                        </div>
+                    </div>
+                    <!-- Dynamic Skills Section -->
+                    <div class="resume-block">
+                        <h3>My Skills</h3>
+                        <div id="skills-container">
+                            <!-- Injected dynamically by js/app.js -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects-section" class="page-section">
+            <div class="content-container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid" id="projects-container">
+                    <!-- Injected dynamically by js/app.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact-section" class="page-section">
+            <div class="content-container">
+                <h2 class="section-title">Contact</h2>
+                <p class="contact-intro">Feel free to reach out to me! Fill out the form below or drop me an email.</p>
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder=" " rows="5" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-blue">SEND MESSAGE</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <p>© 2026 by Erika Jazly Godoy.<br>Crafted with love and strawberry matcha tea.</p>
+        </div>
+        <div class="footer-right">
+            <div class="info-block">
+                <h4>Phone</h4>
+                <p>123-1234 -6767</p>
+            </div>
+            <div class="info-block">
+                <h4>Email</h4>
+                <p>erikajazly.godoy@lorma.edu</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
