@@ -3,7 +3,7 @@
 Welcome to my personal portfolio project! This responsive website displays my skills, dynamic project list, and academic experience. It is built to separate content (data) from structure (HTML) and presentation (CSS).
 
 ## 🚀 Live Link
-* Deployed Project: [text](https://erikajazly07.github.io/portfolio/)
+* Deployed Project: [click meee!](https://erikajazly07.github.io/portfolio/)
 
 ## 🛠️ Features
 - **Dynamic Content Loading:** Repeatable sections (Skills, Projects, Education, and Experience) are loaded dynamically from a local `data.json` database using JavaScript's native Fetch API.
